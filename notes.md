@@ -2,7 +2,7 @@
 
 ## Topic ##
 
-Hotel?  Restaurant?  (Want a gallery.)
+Ask the students for an idea.
 
 ## Fonts ##
 
