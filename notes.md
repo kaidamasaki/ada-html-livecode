@@ -48,4 +48,4 @@ rgb(234, 34, 22)
 
 Mention [Creative Commons](https://search.creativecommons.org/)
 
-I pulled a bunch of naturey bird images.  Not sure if I want to do those.
+I pulled a bunch of naturey bird images.
