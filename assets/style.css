@@ -1,0 +1,80 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: 150px 1fr min-content;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Palatino, Georgia, serif;
+}
+
+p {
+    font-family: Verdana, "Trebuchet MS", sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 45px;
+    color: #ea2216
+}
+
+nav {
+    grid-column: 2;
+    font-size: 30px;
+}
+
+@media (max-width: 500px) {
+    nav {
+        grid-column: 1;
+    }
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+nav a {
+    margin-top: 50px;
+    display: block;
+    text-decoration: none;
+    border: 1px solid #56a29f;
+    text-align: center;
+    padding: 12px;
+    color: #062c61;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #062ccc;
+    background: #f6edc5;
+}
+
+footer {
+    grid-row: 3;
+    text-align: center;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+#listings img {
+    width: 300px;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+#listings article {
+    border: 1px solid #ea2216;
+    padding: 1.5em;
+    background: #f6edc5;
+    margin-top: 15px;
+}
+
+#listings article:first-child {
+    margin-top: 0;
+}
+
+#listings article ul {
+    list-style-type: none;
+}
